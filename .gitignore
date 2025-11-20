@@ -1,0 +1,83 @@
+# Byte-compiled / Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtualenvs
+venv/
+.env/
+.env.* 
+env/
+.venv/
+pip-wheel-metadata/
+build/
+dist/
+
+# PyInstaller
+*.spec
+
+# System
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+*.log
+logs/
+debug.log
+
+# Database / data files
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Secrets and env files
+.env
+.env.local
+.env.*.local
+secrets.env
+secrets.json
+credentials.json
+*.pem
+*.key
+
+# OS-specific
+desktop.ini
+
+# Python packaging
+*.egg-info/
+.eggs/
+pip-log.txt
+
+# macOS
+.AppleDouble
+.LSOverride
+
+# Jupyter
+.ipynb_checkpoints
+
+# Generated images / charts (if you don't want them in repo)
+*.png
+*.jpg
+*.jpeg
+
+# Coverage
+.coverage
+htmlcov/
+.coverage.*
+
+# Pyright / MyPy caches
+.mypy_cache/
+.pyright/
+
+# node_modules (if you ever add frontend)
+node_modules/
+
+# local config files
+local_settings.py
