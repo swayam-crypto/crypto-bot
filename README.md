@@ -117,17 +117,14 @@ pip install mplfinance pandas numpy pillow
 ## 3. Create `.env` file
 - create a file named `.env`
 
-# Important
+### Important
 DISCORD_TOKEN=YOUR_DISCORD_BOT_TOKEN_HERE
-
-# Optional: CryptoPanic API KEY (News)
+### Optional: CryptoPanic API KEY (News)
 CRYPTOPANIC_KEY=
-
-# Optional: Binance API keys (only if you want private endpoints)
+### Optional: Binance API keys (only if you want private endpoints)
 BINANCE_API_KEY=
 BINANCE_SECRET_KEY=
-
-# Optional: Logging / debug settings
+### Optional: Logging / debug settings
 LOG_LEVEL=INFO
 
 ### Never commit `.env` -- it's already in `.gitignore`
