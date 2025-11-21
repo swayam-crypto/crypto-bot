@@ -131,10 +131,11 @@ class VolumeCog(commands.Cog):
         Usage: !volume bitcoin usd
         """
         await ctx.trigger_typing()
-        coin = coin.lower().strip()
+        coin_id = normalize_coin(coin)
+        coin_id = (coin_id).lower().strip()
         vs = vs.lower().strip()
 
-        data = await self.client.fetch_markets(vs=vs, ids=[coin], per_page=1)
+        data = await self.client.fetch_markets(vs=vs, ids=[coin_id], per_page=1)
         if not data:
             await ctx.send("No data available for that coin or failed to fetch.")
             return
